@@ -35,7 +35,7 @@ class About extends React.Component {
               </Grid.Row>{" "}
               <br />
               <Grid.Row textAlign="center">
-                <div className="size-15 width50">
+                <div className="size-15 width65">
                   <p>
                     Currently, I am a fourth-year student at the Wrocław
                     University of Technology. This is my last semester in the

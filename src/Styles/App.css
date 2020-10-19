@@ -36,11 +36,12 @@ hr {
   margin-bottom: 2vh !important;
 }
 
+
 .noBottom {
 
   background-color: red !important;
   border-color: red !important;
-  height: 0.2vh !important;
+  height: 0.1vh !important;
   width: 60% !important;
   font-size: 1.2rem !;
   margin-bottom: 0.2rem !important;
@@ -128,6 +129,10 @@ hr {
 
 .width50 {
   width: 50% !important;
+}
+
+.width65 {
+  width: 65% !important;
 }
 
 .width70 {
