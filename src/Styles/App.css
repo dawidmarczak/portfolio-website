@@ -1,0 +1,173 @@
+* {
+  font-family: "Montserrat" !important;
+  color: white !important;
+}
+
+#main {
+  background-image: url("../Photos/main.jpg") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+body {
+  background-image: url("../Photos/about.png") !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+.fullPage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+hr {
+  background-color: red !important;
+  border-color: red !important;
+  height: 0.2vh !important;
+  width: 60% !important;
+  margin-bottom: 2rem !important;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.menu {
+  border: none !important;
+}
+.menuItem {
+  text-transform: uppercase !important;
+  font-size: 1.2rem !important;
+  border: none !important;
+}
+
+.welcome {
+  width: 25vw !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.marginCenter {
+  margin: 0px auto !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.black {
+  color: black !important;
+}
+
+.header-main {
+  font-size: 2.6rem !important;
+}
+
+.size-15 {
+  font-size: 1.4rem !important;
+}
+
+.header-about {
+  text-transform: uppercase !important;
+  margin-bottom: 4vh !important;
+  font-size: 3rem !important;
+}
+
+.subheader-about {
+  text-transform: uppercase !important;
+  margin-bottom: 3vh !important;
+  font-size: 2.5rem !important;
+}
+
+.subheader-about2 {
+  text-transform: uppercase !important;
+  margin-bottom: 3vh !important;
+  font-size: 1.5rem !important;
+}
+
+.subheader-about3 {
+  margin-bottom: 3vh !important;
+  font-size: 1.5rem !important;
+}
+
+.contact-text {
+  text-transform: uppercase !important;
+  font-size: 1.8rem !important;
+}
+
+.width40 {
+  width: 40% !important;
+}
+
+
+.width50 {
+  width: 50% !important;
+}
+
+.width70 {
+  width: 80% !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.mb-1 {
+  margin-bottom: 2rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 7rem !important;
+}
+
+.mr-1 {
+  margin-left: 4rem !important;
+  margin-right: 1.5rem !important;
+}
+
+.ml-1 {
+  margin-left: 4rem !important;
+}
+
+.back {
+  background-color: red !important;
+}
+
+.mb-0 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mt-1 {
+  margin-top: 1.5rem !important;
+}
+
+.mt-2 {
+  margin-top: 7rem !important;
+}
+
+.m-1 {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+.carousel {
+  background-color: red !important;
+  width: 50% !important;
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.centerMargin {
+  margin: 0 auto !important;
+}
