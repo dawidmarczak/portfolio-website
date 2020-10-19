@@ -45,8 +45,12 @@ hr {
   height: 0.1vh !important;
   width: 60% !important;
   font-size: 1.2rem !;
-  margin-bottom: 0.2rem !important;
+  margin-bottom: 0!important;
 
+}
+
+.noTop {
+  margin-top: 0 !important
 }
 
 .transparent {
@@ -61,6 +65,18 @@ hr {
   text-transform: uppercase !important;
   font-size: 1.5rem !important;
   border: none !important;
+}
+
+@media (max-width: 900px) {
+
+    .menuItem {
+      font-size: 0.8rem !important;
+      margin: 0 !important;
+    }
+
+    .phone-header {
+      font-size: 1.2rem !important
+    }
 }
 
 .welcome {
@@ -94,6 +110,20 @@ hr {
 
 .size-15 {
   font-size: 1.4rem !important;
+}
+
+.size-12{
+  font-size: 0.9rem !important
+}
+
+@media (max-width: 900px) {
+  .size-15 {
+    font-size: 1rem !important
+  }
+
+  .size-12 {
+    font-size: 0.75rem !important;
+  }
 }
 
 .header-about {
@@ -141,6 +171,18 @@ hr {
   width: 80% !important;
 }
 
+
+@media (max-width: 900px) {
+  .width65 {
+    width: 90% !important;
+  }
+
+  .width70 {
+    width: 90% !important;
+    overflow: auto !important;
+  }
+}
+
 .red {
   color: red !important;
 }
@@ -183,6 +225,7 @@ hr {
   margin-right: 1rem !important;
 }
 
+
 .mt-2v{
   margin-top: 3vh !important
 }
@@ -196,4 +239,13 @@ hr {
 
 .centerMargin {
   margin: 0 auto !important;
+}
+
+.centerAlign {
+  text-align: center !important;
+}
+
+.overFlow {
+
+  overflow: auto !important;
 }

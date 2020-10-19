@@ -36,14 +36,22 @@ class ProjectsList extends React.Component {
               </Divider>
 
               <Grid verticalAlign="middle" textAlign="center">
-                <Grid.Row columns="3">
-                  <Grid.Column width="9">
-                    <Header as="h4">
-                      REACT - NODE.JS - MONGO DB - SEMANTIC UI{" "}
+
+                <Grid.Row columns="1" className='overFlow'>
+                  <Grid.Column>
+                    <Header as="h4" className='size-15'>
+                      React - Node.js - MongoDB - SemanticUI{" "}
                     </Header>
                   </Grid.Column>
+                </Grid.Row>
 
-                  <Grid.Column width="4">
+                <Divider horizontal className="red">
+                   Difficulty raiting
+                </Divider>
+
+                <Grid.Row columns="2" className='overFlow'>
+
+                  <Grid.Column>
                     <Progress
                       className="mb-0"
                       value="3.5"
@@ -56,8 +64,9 @@ class ProjectsList extends React.Component {
                     <p>Difficulty</p>
                   </Grid.Column>
 
-                  <Grid.Column width="3">
-                    <a href="https://github.com/dawidmarczak/" target="_blank">
+                  <Grid.Column>
+
+                  <a href="https://github.com/dawidmarczak/" target="_blank">
                       <Image
                         className="mb-0"
                         centered
@@ -66,17 +75,24 @@ class ProjectsList extends React.Component {
                         size="mini"
                       />
                     </a>
-
                     <p>Soon on github!</p>
+                    
                   </Grid.Column>
-                </Grid.Row>
-              </Grid>
 
+                </Grid.Row>
               <Divider horizontal className="red">
                 Authors
               </Divider>
 
-              <Header as="h5">Dawid Marczak </Header>
+              <Grid.Row columns='1' textAlign='center'>
+
+              <Grid.Column>
+                  <Header as="h5">Dawid Marczak </Header>
+              </Grid.Column>
+          
+              </Grid.Row>
+
+              </Grid>
             </div>
 
             <div key="2">
@@ -94,20 +110,30 @@ class ProjectsList extends React.Component {
                 subpages and an extensive administrator panel.
               </p>
 
-              <Divider horizontal>Technologies</Divider>
+              <Divider horizontal className="red">
+                Technologies
+              </Divider>
 
               <Grid verticalAlign="middle" textAlign="center">
-                <Grid.Row columns="2">
-                  <Grid.Column width="9">
-                    <Header as="h3" color="red">
-                      HTML - CSS - Bootstrap - PHP{" "}
+
+                <Grid.Row columns="1" className='overFlow'>
+                  <Grid.Column>
+                    <Header as="h4" className='size-15'>
+                      HTML - CSS - PHP - Bootstrap {" "}
                     </Header>
                   </Grid.Column>
+                </Grid.Row>
 
-                  <Grid.Column width="3">
+                <Divider horizontal className="red">
+                   Difficulty raiting
+                </Divider>
+
+                <Grid.Row columns="2" className='overFlow'>
+
+                  <Grid.Column>
                     <Progress
                       className="mb-0"
-                      value="3.5"
+                      value="2.5"
                       total="5"
                       size="medium"
                       progress="ratio"
@@ -117,11 +143,9 @@ class ProjectsList extends React.Component {
                     <p>Difficulty</p>
                   </Grid.Column>
 
-                  <Grid.Column width="3">
-                    <a
-                      href="https://github.com/dawidmarczak/SportClubWebsite"
-                      target="_blank"
-                    >
+                  <Grid.Column>
+
+                  <a href="https://github.com/dawidmarczak/SportClubWebsite" target="_blank">
                       <Image
                         className="mb-0"
                         centered
@@ -130,17 +154,24 @@ class ProjectsList extends React.Component {
                         size="mini"
                       />
                     </a>
-
                     <p>Find on github!</p>
+                    
                   </Grid.Column>
+
                 </Grid.Row>
+              <Divider horizontal className="red">
+                Authors
+              </Divider>
+
+              <Grid.Row columns='1' textAlign='center'>
+
+              <Grid.Column>
+                  <Header as="h5">Dawid Marczak, Maciej Grzela, Piotr Tocicki, Milena Korusiewcz </Header>
+              </Grid.Column>
+          
+              </Grid.Row>
+
               </Grid>
-
-              <Divider horizontal>Authors</Divider>
-
-              <Header as="h5">
-                Dawid Marczak, Maciej Grzela, Piotr Tocicki, Milena Korusiewicz{" "}
-              </Header>
             </div>
 
             <div key="3">
@@ -157,20 +188,30 @@ class ProjectsList extends React.Component {
                 what characterizes me.{" "}
               </p>
 
-              <Divider horizontal>Technologies</Divider>
+              <Divider horizontal className="red">
+                Technologies
+              </Divider>
 
               <Grid verticalAlign="middle" textAlign="center">
-                <Grid.Row columns="2">
-                  <Grid.Column width="9">
-                    <Header as="h3" color="red">
-                      REACT - CSS - SEMANTIC UI{" "}
+
+                <Grid.Row columns="1" className='overFlow'>
+                  <Grid.Column>
+                    <Header as="h4" className='size-15'>
+                      React - Semantic UI {" "}
                     </Header>
                   </Grid.Column>
+                </Grid.Row>
 
-                  <Grid.Column width="3">
+                <Divider horizontal className="red">
+                   Difficulty raiting
+                </Divider>
+
+                <Grid.Row columns="2" className='overFlow'>
+
+                  <Grid.Column>
                     <Progress
                       className="mb-0"
-                      value="1"
+                      value="2"
                       total="5"
                       size="medium"
                       progress="ratio"
@@ -180,11 +221,9 @@ class ProjectsList extends React.Component {
                     <p>Difficulty</p>
                   </Grid.Column>
 
-                  <Grid.Column width="3">
-                    <a
-                      href="https://github.com/dawidmarczak/PortfolioWebsite"
-                      target="_blank"
-                    >
+                  <Grid.Column>
+
+                  <a href="https://github.com/dawidmarczak/portfolio-website" target="_blank">
                       <Image
                         className="mb-0"
                         centered
@@ -193,15 +232,24 @@ class ProjectsList extends React.Component {
                         size="mini"
                       />
                     </a>
-
                     <p>Find on github!</p>
+                    
                   </Grid.Column>
+
                 </Grid.Row>
+              <Divider horizontal className="red">
+                Authors
+              </Divider>
+
+              <Grid.Row columns='1' textAlign='center'>
+
+              <Grid.Column>
+                  <Header as="h5">Dawid Marczak </Header>
+              </Grid.Column>
+          
+              </Grid.Row>
+
               </Grid>
-
-              <Divider horizontal>Authors</Divider>
-
-              <Header as="h5">Dawid Marczak</Header>
             </div>
 
             <div key="4">
@@ -219,17 +267,27 @@ class ProjectsList extends React.Component {
                 classes.
               </p>
 
-              <Divider horizontal>Technologies</Divider>
+              <Divider horizontal className="red">
+                Technologies
+              </Divider>
 
               <Grid verticalAlign="middle" textAlign="center">
-                <Grid.Row columns="2">
-                  <Grid.Column width="9">
-                    <Header as="h3" color="red">
-                      C++ - NCURSES - THREADS
+
+                <Grid.Row columns="1" className='overFlow'>
+                  <Grid.Column>
+                    <Header as="h4" className='size-15'>
+                      C++ - Ncurses - Threads/Mutex{" "}
                     </Header>
                   </Grid.Column>
+                </Grid.Row>
 
-                  <Grid.Column width="3">
+                <Divider horizontal className="red">
+                   Difficulty raiting
+                </Divider>
+
+                <Grid.Row columns="2" className='overFlow'>
+
+                  <Grid.Column>
                     <Progress
                       className="mb-0"
                       value="3"
@@ -242,11 +300,9 @@ class ProjectsList extends React.Component {
                     <p>Difficulty</p>
                   </Grid.Column>
 
-                  <Grid.Column width="3">
-                    <a
-                      href="https://github.com/dawidmarczak/CarWashSImulator"
-                      target="_blank"
-                    >
+                  <Grid.Column>
+
+                  <a href="https://github.com/dawidmarczak/CarWashSimulator" target="_blank">
                       <Image
                         className="mb-0"
                         centered
@@ -255,15 +311,24 @@ class ProjectsList extends React.Component {
                         size="mini"
                       />
                     </a>
-
                     <p>Find on github!</p>
+                    
                   </Grid.Column>
+
                 </Grid.Row>
+              <Divider horizontal className="red">
+                Authors
+              </Divider>
+
+              <Grid.Row columns='1' textAlign='center'>
+
+              <Grid.Column>
+                  <Header as="h5">Dawid Marczak </Header>
+              </Grid.Column>
+          
+              </Grid.Row>
+
               </Grid>
-
-              <Divider horizontal>Authors</Divider>
-
-              <Header as="h5">Dawid Marczak</Header>
             </div>
           </Carousel>
         </Grid.Row>

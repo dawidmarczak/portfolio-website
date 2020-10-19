@@ -7,9 +7,9 @@ class Navbar extends React.Component {
   render() {
     return (
       <>
-        <Container fluid className="transparent mt-2v" textAlign='center'>
+        <Container fluid className="transparent mt-2v floatLeft" textAlign='center'>
 
-          <Menu pointing secondary stackable className="menu">
+          <Menu pointing secondary>
             <Link to="/">
               <Menu.Item name="home" className="menuItem" />{" "}
             </Link>

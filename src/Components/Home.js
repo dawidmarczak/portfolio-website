@@ -22,7 +22,7 @@ class Home extends React.Component {
           <Grid>
 
               <Grid.Row textAlign='center'>
-              <Header as="h3" textAlign="center" color="red">
+              <Header as="h3" textAlign="center" color="red" className='phone-header'>
                 Welcome to my website!
               </Header>
               </Grid.Row>
@@ -36,7 +36,7 @@ class Home extends React.Component {
               <hr className="noBottom"/>
               
               <Grid.Row textAlign='center'>
-                 <Divider horizontal className="red">
+                 <Divider horizontal className="red phone-header noTop">
                  I invite you to get to know me
                  </Divider>
               </Grid.Row>

@@ -97,7 +97,7 @@ class About extends React.Component {
               </Grid.Row>
 
               <Grid.Row className="width70">
-                <Table celled stackable inverted basic="very">
+                <Table unstackable celled  inverted basic="very">
                   <Table.Header>
                     <Table.Row>
                       <Table.HeaderCell>
@@ -137,7 +137,7 @@ class About extends React.Component {
               </Grid.Row>
 
               <Grid.Row className="width70">
-                <Table celled inverted basic="very">
+                <Table unstackable celled inverted basic="very" className='overFlow'>
                   <Table.Header>
                     <Table.Row>
                       <Table.HeaderCell>NAME OF THE COMPANY</Table.HeaderCell>

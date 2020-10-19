@@ -19,9 +19,9 @@ class Skills extends React.Component {
         </Grid.Row>
 
         <Grid.Row className="width70">
-          <Table celled inverted basic="very">
+          <Table unstackable celled inverted basic="very">
             <Table.Header>
-              <Table.Row>
+              <Table.Row textAlign>
                 <Table.HeaderCell>LANGUAGE</Table.HeaderCell>
                 <Table.HeaderCell>SOLUTIONS USED</Table.HeaderCell>
               </Table.Row>
@@ -53,7 +53,7 @@ class Skills extends React.Component {
           </Table>
         </Grid.Row>
 
-        <Divider className="mb-2"></Divider>
+        <Divider className="mb-1"></Divider>
 
         <Grid.Row>
           <Header as="h2" className="subheader-about">
@@ -61,7 +61,7 @@ class Skills extends React.Component {
           </Header>
         </Grid.Row>
 
-        <Grid.Row className="width70" divided>
+        <Grid.Row className="width70 size-12" divided>
           <List bulleted size="huge" verticalAlign="middle">
             <List.Item>Junior water lifeguard course</List.Item>
 
