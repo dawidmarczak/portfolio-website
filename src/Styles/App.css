@@ -33,7 +33,8 @@ hr {
   border-color: red !important;
   height: 0.2vh !important;
   width: 60% !important;
-  margin-bottom: 2vh !important;
+  margin-top: 2vh !important;
+  margin-bottom: 3.5vh !important;
 }
 
 
@@ -55,9 +56,10 @@ hr {
 .menu {
   border: none !important;
 }
+
 .menuItem {
   text-transform: uppercase !important;
-  font-size: 1.2rem !important;
+  font-size: 1.5rem !important;
   border: none !important;
 }
 
@@ -179,6 +181,10 @@ hr {
 .m-1 {
   margin-left: 1rem !important;
   margin-right: 1rem !important;
+}
+
+.mt-2v{
+  margin-top: 3vh !important
 }
 .carousel {
   background-color: red !important;
