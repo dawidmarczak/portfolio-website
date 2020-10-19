@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.e4b74686.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.8d18c65e.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.8d18c65e.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.e096bd68.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.e096bd68.js.map",
+    "static/css/2.77fa4ef8.chunk.css": "/portfolio-website/static/css/2.77fa4ef8.chunk.css",
+    "static/js/2.0701117a.chunk.js": "/portfolio-website/static/js/2.0701117a.chunk.js",
+    "static/js/2.0701117a.chunk.js.map": "/portfolio-website/static/js/2.0701117a.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "precache-manifest.be7e15b23c660e27e2a03b5f5a5d2606.js": "/portfolio-website/precache-manifest.be7e15b23c660e27e2a03b5f5a5d2606.js",
+    "service-worker.js": "/portfolio-website/service-worker.js",
+    "static/css/2.77fa4ef8.chunk.css.map": "/portfolio-website/static/css/2.77fa4ef8.chunk.css.map",
+    "static/css/main.e4b74686.chunk.css.map": "/portfolio-website/static/css/main.e4b74686.chunk.css.map",
+    "static/js/2.0701117a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.0701117a.chunk.js.LICENSE.txt",
+    "static/media/Montserrat-Regular.ttf": "/portfolio-website/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/App.css": "/portfolio-website/static/media/main.25e4ce9f.jpg",
+    "static/media/semantic.min.css": "/portfolio-website/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/carWashApp.png": "/portfolio-website/static/media/carWashApp.e04d8e40.png",
+    "static/media/clubPage.png": "/portfolio-website/static/media/clubPage.a5a0a0c9.png",
+    "static/media/dawid.png": "/portfolio-website/static/media/dawid.65b74bab.png",
+    "static/media/fitnessApp.png": "/portfolio-website/static/media/fitnessApp.f610fbbd.png",
+    "static/media/github.png": "/portfolio-website/static/media/github.da957304.png",
+    "static/media/linkedin.png": "/portfolio-website/static/media/linkedin.fd0d5546.png",
+    "static/media/portfolioPage.png": "/portfolio-website/static/media/portfolioPage.4386f3c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e096bd68.js",
+    "static/css/2.77fa4ef8.chunk.css",
+    "static/js/2.0701117a.chunk.js",
+    "static/css/main.e4b74686.chunk.css",
+    "static/js/main.8d18c65e.chunk.js"
+  ]
+}
