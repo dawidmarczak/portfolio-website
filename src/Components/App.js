@@ -6,7 +6,7 @@ import Main from "./Main";
 
 function App() {
   return (
-    <Container fluid>
+    <Container fluid className='position fullPage'>
       <Main />
     </Container>
   );

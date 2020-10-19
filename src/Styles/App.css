@@ -24,12 +24,27 @@ body {
   height: 100vh !important;
 }
 
+.position {
+  overflow: visible !important;
+}
+
 hr {
   background-color: red !important;
   border-color: red !important;
   height: 0.2vh !important;
   width: 60% !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: 2vh !important;
+}
+
+.noBottom {
+
+  background-color: red !important;
+  border-color: red !important;
+  height: 0.2vh !important;
+  width: 60% !important;
+  font-size: 1.2rem !;
+  margin-bottom: 0.2rem !important;
+
 }
 
 .transparent {
@@ -153,7 +168,7 @@ hr {
 }
 
 .mt-2 {
-  margin-top: 7rem !important;
+  margin-top: 5vh !important;
 }
 
 .m-1 {
